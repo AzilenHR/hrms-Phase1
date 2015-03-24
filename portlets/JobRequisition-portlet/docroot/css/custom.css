@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+	.WebHRForm1 {
+    font-family: "Titillium Web",sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(88, 100, 126);
+    border-width: 0px 0px 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color rgb(185, 185, 185);
+    background-color: transparent;
+	}
+	.WebHR_Heading2 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Titillium Web",sans-serif;
+    color: rgb(0, 51, 102);
+	}
+		.imgstate-image {
+	width: 20px;
+	height: 20px;
+}
+
+.requisition-status {
+	text-align: center !important;
+}
+
+.edit-icon, .delete-icon, .view-icon{
+	opacity: 0.09  !important;
+	
+}
+
+.requisition-edit-link:HOVER>a>img{
+	opacity: 1.0  !important;
+}
+
+.div-add-requisition>a.add-requisition-link {
+	float: right;
+	font-weight: 600;
+	text-decoration: none;
+	COLOR: #C2A27A;
+	text-transform: uppercase;
+	padding: 7px 16px;
+}
+
+.div-add-requisition:HOVER>a.add-requisition-link {
+	color: #EEFEEF;
+	background: #535353;
+	text-transform: uppercase;
+}
+.lablesize
+		{
+			font-weight: 600;
+		}
+		.lablecolor
+		{
+		font-weight: 800;
+		color: #91A244;
+		}

@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+input.employee-search-text {
+	float: left;
+	margin-right: 5px;
+}
+
+img.employee-search-icon {
+	width: 25px;
+	height: auto;
+}
+
+td.attendance-approval > a {
+	text-decoration: none;
+}
+
+td.attendance-approval > label {
+	color: green;
+	cursor: default;
+}
+
+ul[role="listbox"] {
+	font-size: medium;
+	margin: 0;
+	margin-bottom: 3px;
+}
+
+.employee-name-search {
+	float: left;
+	margin-right: 10px;
+}

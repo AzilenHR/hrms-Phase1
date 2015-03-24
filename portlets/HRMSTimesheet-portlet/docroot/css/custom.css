@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+/* TIMESHEET LIST STYLES (HRMSTimesheetAttendanceMgmt - view.jsp) */
+
+div.employee-timesheets {
+	padding-top: 5px;
+}
+
+img.state-image {
+	width: 20px;
+	height: auto;
+}
+
+.task-billable {
+	text-align: center;
+}
+
+.edit-icon, .delete-icon {
+	opacity: 0.09;
+}
+
+.timesheet-edit-link:HOVER>a>img, .timesheet-delete-link:HOVER>a>img {
+	opacity: 1.0;
+}
+
+.div-add-timesheet>a.add-timesheet-link {
+	float: right;
+	font-weight: 600;
+	text-decoration: none;
+	COLOR: #C2A27A;
+	text-transform: uppercase;
+	padding: 7px 16px;
+}
+
+.div-add-timesheet:HOVER>a.add-timesheet-link {
+	color: #EEFEEF;
+	background: #535353;
+	text-transform: uppercase;
+}
+
+.task-completed > label {
+	color: green !important;
+	cursor: default;
+}
+
+.task-completed > a {
+	text-decoration: none !important;
+}
+
+/* TIMESHEET CREATION STYLES (HRMSTimesheetAttendanceMgmt - AddTimesheet.jsp) */
+
+ul.ui-timepicker-list {
+	margin: 0;
+}
+
+div.div-taskfile {
+	margin-bottom: 10px;
+}
+
+div.div-taskfile label {
+	float: left;
+	margin-right: 10px;
+}
+
+div.div-billable-checkbox>.task-billable-checkbox, div.div-task-completed>.task-completed-checkbox {
+	float: left;
+	margin-right: 5px;
+}
+
+td {
+	width: 250px;
+}
