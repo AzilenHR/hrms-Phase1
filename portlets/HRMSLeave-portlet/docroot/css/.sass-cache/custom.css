@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+.leave-status {
+  text-align: center !important; }
+
+img.state-image {
+  width: 20px;
+  height: auto; }
+
+.edit-icon {
+  opacity: 0.09; }
+
+.leave-edit-link:hover img {
+  opacity: 1; }
+
+.add-leave-link > a.add-leave-linka {
+  float: right;
+  font-weight: 600;
+  text-decoration: none;
+  COLOR: #C2A27A;
+  text-transform: uppercase;
+  padding: 7px 16px; }
+
+.add-leave-link:HOVER > a.add-leave-linka {
+  color: #EEFEEF;
+  background: #535353;
+  text-transform: uppercase; }
+
+#textBox .field {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid; }
+
+.control-label {
+  width: 180px; }
+
+.heading {
+  font-family: monospace;
+  font-size: 23px;
+  float: left; }
+
+#drop .aui-field-select {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid; }
+

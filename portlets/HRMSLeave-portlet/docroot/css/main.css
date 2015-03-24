@@ -1,0 +1,14 @@
+
+.leave-status{
+	text-align: center !important;
+}
+img.state-image {
+	width: 20px;
+	height: auto;
+}
+.edit-icon{
+	opacity: 0.09
+}
+.leave-edit-link:hover img{
+	opacity: 1.0 ;
+}
